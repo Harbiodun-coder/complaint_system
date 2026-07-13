@@ -4,7 +4,7 @@ Final year project scaffold — Full Next.js (App Router), MongoDB, JWT auth.
 
 ## What's built so far
 
-- **Landing page** (`/`) — matches your home page mockup
+- **Landing page** (`/`) — 
 - **Register** (`/register`) & **Login** (`/login`) — real accounts, hashed passwords, JWT cookie sessions
 - **Student dashboard** (`/dashboard`) — stats, recent complaints, quick actions
 - **Submit complaint** (`/dashboard/submit`) and **My Complaints** (`/dashboard/complaints`)
@@ -25,7 +25,7 @@ Final year project scaffold — Full Next.js (App Router), MongoDB, JWT auth.
 
 3. **Environment variables**
    ```bash
-   cp .env.local.example .env.local
+   create .env.local
    ```
    Then fill in `MONGODB_URI` and set `JWT_SECRET` to any long random string (you can generate one with `openssl rand -base64 32`).
 
